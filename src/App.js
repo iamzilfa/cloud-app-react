@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-    <h1 className="text-red-500 underline">Hello dear Zilfa!</h1>
+    <Navbar />
+    <Hero />
     </>
   );
 }
